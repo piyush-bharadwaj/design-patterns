@@ -38,3 +38,4 @@ const itemStoreAmazon = new ItemStore(new AmazonpayGateway('Sarat'));
 itemStoreAmazon.purchaseItem(6);
 
 const itemStorePaytm = new ItemStore(new paytmGateway('Vijay'));
+itemStorePaytm.purchaseItem(10);
